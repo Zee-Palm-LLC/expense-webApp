@@ -14,10 +14,10 @@ class DateContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 60),
+      padding: const EdgeInsets.only(left: 60),
       child: SizedBox(
         height: 30,
-        width: 465,
+        //  width: 465,
         child: Column(
           children: [
             Row(

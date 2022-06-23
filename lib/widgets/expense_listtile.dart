@@ -16,7 +16,7 @@ class Expenselisttile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 55),
       child: SizedBox(
-        width: 468,
+        //  width: 468,
         child: ListTile(
           visualDensity: const VisualDensity(vertical: -4, horizontal: 0),
           leading: CircleAvatar(

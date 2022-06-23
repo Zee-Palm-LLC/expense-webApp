@@ -8,6 +8,7 @@ import 'package:expense_screen/widgets/expense_listtile.dart';
 import 'package:expense_screen/widgets/newbar.dart';
 import 'package:expense_screen/widgets/progreess_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../model/grocery_model.dart';
 
@@ -19,8 +20,8 @@ class MainScreen extends StatelessWidget {
     return Container(
       child: Scaffold(
           body: Container(
-        height: 1000,
-        width: 1300,
+        height: Get.height,
+        width: Get.width,
         color: Colors.black,
         child: ListView(
           scrollDirection: Axis.horizontal,
@@ -117,7 +118,7 @@ class MainScreen extends StatelessWidget {
             Container(
               margin: const EdgeInsets.all(10),
               height: 1000,
-              width: 980,
+              //  width: 980,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(kSmallRadius),
                 color: Colors.white,
